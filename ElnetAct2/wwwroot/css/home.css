@@ -1,0 +1,110 @@
+﻿.container{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.picture {
+    object-fit: cover;
+    height: 750px; /* Set height as needed */
+    width: 100%;
+    background-color: #00ff21; /* Setting background color as a fallback */
+    filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content{
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    gap: 100px;
+    height: 750px;
+    box-sizing: border-box;
+    margin-top: -100px;
+}
+
+.tagline-cont {
+    width: 500px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.tagline {
+    display: flex;
+    font-size: 40px;
+    width: 500px;
+}
+
+.tagline span{
+    width: 500px;
+}
+
+.home-img{
+    width: 700px;
+    height: 500px;
+}
+
+.tagline-cont input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.find-cont{
+    display: flex;
+    gap: 10px;
+}
+
+.find-cont button{
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-list span{
+    font-size: 25px;
+}
+
+.nav-list span:nth-child(2) span {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.application-title{
+    font-size: 35px !important;
+}
+
+nav button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #d9d9d9;
+    border: none;
+}
+
